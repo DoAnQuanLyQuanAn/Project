@@ -1,0 +1,12 @@
+E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN01\QuanLyQuanAn\bin\Release\QuanLyQuanAn.exe
+E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN01\QuanLyQuanAn\bin\Release\QuanLyQuanAn.pdb
+E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN01\QuanLyQuanAn\obj\x86\Release\QuanLyQuanAn.BoPhanQuanLy.resources
+E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN01\QuanLyQuanAn\obj\x86\Release\QuanLyQuanAn.GiaoDienChinh.resources
+E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN01\QuanLyQuanAn\obj\x86\Release\QuanLyQuanAn.HoatDongBanHang.resources
+E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN01\QuanLyQuanAn\obj\x86\Release\QuanLyQuanAn.HoatDongTongDai.resources
+E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN01\QuanLyQuanAn\obj\x86\Release\QuanLyQuanAn.Properties.Resources.resources
+E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN01\QuanLyQuanAn\obj\x86\Release\QuanLyQuanAn.SignUp.resources
+E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN01\QuanLyQuanAn\obj\x86\Release\QuanLyQuanAn.ThongTinVaCaiDat.resources
+E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN01\QuanLyQuanAn\obj\x86\Release\QuanLyQuanAn.csproj.GenerateResource.Cache
+E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN01\QuanLyQuanAn\obj\x86\Release\QuanLyQuanAn.exe
+E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN01\QuanLyQuanAn\obj\x86\Release\QuanLyQuanAn.pdb
