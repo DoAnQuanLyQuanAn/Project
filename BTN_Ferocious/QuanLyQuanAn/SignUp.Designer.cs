@@ -46,16 +46,16 @@
             this.panel1.Controls.Add(this.tbDangNhap);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Location = new System.Drawing.Point(12, 13);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(391, 147);
+            this.panel1.Size = new System.Drawing.Size(391, 158);
             this.panel1.TabIndex = 0;
             // 
             // btThoat
             // 
-            this.btThoat.Location = new System.Drawing.Point(304, 121);
+            this.btThoat.Location = new System.Drawing.Point(304, 130);
             this.btThoat.Name = "btThoat";
-            this.btThoat.Size = new System.Drawing.Size(75, 23);
+            this.btThoat.Size = new System.Drawing.Size(75, 25);
             this.btThoat.TabIndex = 3;
             this.btThoat.Text = "Thoát";
             this.btThoat.UseVisualStyleBackColor = true;
@@ -63,7 +63,7 @@
             // 
             // tbPass
             // 
-            this.tbPass.Location = new System.Drawing.Point(148, 73);
+            this.tbPass.Location = new System.Drawing.Point(148, 79);
             this.tbPass.Name = "tbPass";
             this.tbPass.Size = new System.Drawing.Size(229, 20);
             this.tbPass.TabIndex = 2;
@@ -71,9 +71,9 @@
             // 
             // btDangNhap
             // 
-            this.btDangNhap.Location = new System.Drawing.Point(223, 121);
+            this.btDangNhap.Location = new System.Drawing.Point(223, 130);
             this.btDangNhap.Name = "btDangNhap";
-            this.btDangNhap.Size = new System.Drawing.Size(75, 23);
+            this.btDangNhap.Size = new System.Drawing.Size(75, 25);
             this.btDangNhap.TabIndex = 2;
             this.btDangNhap.Text = "Đăng Nhập";
             this.btDangNhap.UseVisualStyleBackColor = true;
@@ -81,7 +81,7 @@
             // 
             // tbDangNhap
             // 
-            this.tbDangNhap.Location = new System.Drawing.Point(148, 27);
+            this.tbDangNhap.Location = new System.Drawing.Point(148, 29);
             this.tbDangNhap.Name = "tbDangNhap";
             this.tbDangNhap.Size = new System.Drawing.Size(229, 20);
             this.tbDangNhap.TabIndex = 1;
@@ -89,34 +89,35 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 73);
+            this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(3, 79);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 20);
+            this.label2.Size = new System.Drawing.Size(87, 19);
             this.label2.TabIndex = 0;
             this.label2.Text = "Mật Khẩu:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 25);
+            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(3, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(139, 20);
+            this.label1.Size = new System.Drawing.Size(134, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tên Đăng Nhập:";
             // 
             // SignUp
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(415, 169);
+            this.ClientSize = new System.Drawing.Size(415, 182);
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
             this.Name = "SignUp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng Nhập";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SignUp_FormClosing);
+            this.Load += new System.EventHandler(this.SignUp_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

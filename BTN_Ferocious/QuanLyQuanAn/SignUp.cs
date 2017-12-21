@@ -12,7 +12,7 @@ namespace QuanLyQuanAn
 {
     public partial class SignUp : Form
     {
-        string connectinonST = @"Data Source=.\sqlexpress;Initial Catalog=QuanLyQuanAn;Integrated Security=True";
+        string connectinonST = @"Data Source=.;Initial Catalog=QuanLyQuanAn;Integrated Security=True";
         SqlConnection connection;
         SqlCommand command;
         public SignUp()
@@ -88,6 +88,11 @@ namespace QuanLyQuanAn
             {
                 e.Cancel = true;
             }
+        }
+
+        private void SignUp_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

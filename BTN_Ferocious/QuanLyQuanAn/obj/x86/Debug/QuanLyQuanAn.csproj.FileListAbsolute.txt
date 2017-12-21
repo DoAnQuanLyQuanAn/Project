@@ -66,3 +66,23 @@ E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN03_Ferocious\QuanLyQuanAn\obj\
 E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN03_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.QuanLyNhanVien.resources
 E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.exe
 E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.pdb
+D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe
+D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.pdb
+D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.csprojResolveAssemblyReference.cache
+D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.BaoCao.resources
+D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.BoPhanQuanLy.resources
+D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.GiaoDienChinh.resources
+D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.HoatDongTongDai.resources
+D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.Properties.Resources.resources
+D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.QuanLyNhanVien.resources
+D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.SignUp.resources
+D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.csproj.GenerateResource.Cache
+D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.csproj.CoreCompileInputs.cache
+D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.exe
+D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.pdb
+D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\bin\Debug\Microsoft.SqlServer.Types.dll

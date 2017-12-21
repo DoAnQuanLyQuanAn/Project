@@ -12,7 +12,7 @@ namespace QuanLyQuanAn
 {
     public partial class GiaoDienChinh : Form
     {
-        string connectinonST = @"Data Source=.\sqlexpress;Initial Catalog=QuanLyQuanAn;Integrated Security=True";
+        string connectinonST = @"Data Source=.;Initial Catalog=QuanLyQuanAn;Integrated Security=True";
         public GiaoDienChinh()
         {
             InitializeComponent();
@@ -153,6 +153,11 @@ namespace QuanLyQuanAn
             DataTable tb = new DataTable();
             tb = LoadDuLieu.docDuLieu("SELECT iHD.TenMonAn, iHD.DonGia, iHD.SoLuong FROM info_HOADON iHD, HOADON HD WHERE iHD.IDHoaDon = HD.ID");
             return tb;
+
+        }
+
+        private void dsachBanAn_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }
