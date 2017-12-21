@@ -38,9 +38,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.btCapNhap = new System.Windows.Forms.Button();
+            this.tbBan = new System.Windows.Forms.TextBox();
             this.tbSoLuong = new System.Windows.Forms.TextBox();
             this.tbDonGia = new System.Windows.Forms.TextBox();
             this.tbDichVu = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -61,6 +63,8 @@
             this.btNhanHoaDon = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.TenHienThi = new System.Windows.Forms.Label();
+            this.tbTimKiem = new System.Windows.Forms.TextBox();
+            this.btTimKiem = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -120,10 +124,14 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel3.Controls.Add(this.btTimKiem);
             this.panel3.Controls.Add(this.btCapNhap);
+            this.panel3.Controls.Add(this.tbBan);
+            this.panel3.Controls.Add(this.tbTimKiem);
             this.panel3.Controls.Add(this.tbSoLuong);
             this.panel3.Controls.Add(this.tbDonGia);
             this.panel3.Controls.Add(this.tbDichVu);
+            this.panel3.Controls.Add(this.label11);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.label3);
@@ -146,6 +154,13 @@
             this.btCapNhap.Text = "Cập Nhập";
             this.btCapNhap.UseVisualStyleBackColor = true;
             this.btCapNhap.Click += new System.EventHandler(this.btCapNhap_Click);
+            // 
+            // tbBan
+            // 
+            this.tbBan.Location = new System.Drawing.Point(79, 506);
+            this.tbBan.Name = "tbBan";
+            this.tbBan.Size = new System.Drawing.Size(104, 20);
+            this.tbBan.TabIndex = 3;
             // 
             // tbSoLuong
             // 
@@ -170,6 +185,15 @@
             this.tbDichVu.Size = new System.Drawing.Size(214, 20);
             this.tbDichVu.TabIndex = 99;
             this.tbDichVu.TextChanged += new System.EventHandler(this.tbDichVu_TextChanged);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(3, 513);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(45, 13);
+            this.label11.TabIndex = 2;
+            this.label11.Text = "Bàn Số:";
             // 
             // label5
             // 
@@ -218,10 +242,17 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataDSThucDon.DefaultCellStyle = dataGridViewCellStyle2;
+<<<<<<< HEAD
             this.dataDSThucDon.Location = new System.Drawing.Point(3, 36);
             this.dataDSThucDon.Name = "dataDSThucDon";
             this.dataDSThucDon.ReadOnly = true;
             this.dataDSThucDon.Size = new System.Drawing.Size(290, 360);
+=======
+            this.dataDSThucDon.Location = new System.Drawing.Point(3, 72);
+            this.dataDSThucDon.Name = "dataDSThucDon";
+            this.dataDSThucDon.ReadOnly = true;
+            this.dataDSThucDon.Size = new System.Drawing.Size(290, 295);
+>>>>>>> f2aba9db30ea1428d61c1d0f84321ee35519981e
             this.dataDSThucDon.TabIndex = 1;
             // 
             // label2
@@ -398,6 +429,25 @@
             this.TenHienThi.Size = new System.Drawing.Size(0, 14);
             this.TenHienThi.TabIndex = 12;
             // 
+            // tbTimKiem
+            // 
+            this.tbTimKiem.Location = new System.Drawing.Point(3, 46);
+            this.tbTimKiem.Name = "tbTimKiem";
+            this.tbTimKiem.Size = new System.Drawing.Size(196, 20);
+            this.tbTimKiem.TabIndex = 3;
+            // 
+            // btTimKiem
+            // 
+            this.btTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btTimKiem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btTimKiem.Location = new System.Drawing.Point(223, 43);
+            this.btTimKiem.Name = "btTimKiem";
+            this.btTimKiem.Size = new System.Drawing.Size(70, 23);
+            this.btTimKiem.TabIndex = 100;
+            this.btTimKiem.Text = "Tìm Kiếm";
+            this.btTimKiem.UseVisualStyleBackColor = true;
+            this.btTimKiem.Click += new System.EventHandler(this.btTimKiem_Click);
+            // 
             // GiaoDienChinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
@@ -461,6 +511,10 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label TenHienThi;
         private System.Windows.Forms.FlowLayoutPanel dsachBanAn;
+        private System.Windows.Forms.TextBox tbBan;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox tbTimKiem;
+        private System.Windows.Forms.Button btTimKiem;
 
     }
 }

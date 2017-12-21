@@ -66,6 +66,7 @@ E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN03_Ferocious\QuanLyQuanAn\obj\
 E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN03_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.QuanLyNhanVien.resources
 E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.exe
 E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.pdb
+<<<<<<< HEAD
 D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe
 D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.pdb
 D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.csprojResolveAssemblyReference.cache
@@ -86,3 +87,18 @@ D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\bin\Debug\SqlServerTypes\x86\
 D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
 D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
 D:\DoAnLapTrinh\Project\BTN_Ferocious\QuanLyQuanAn\bin\Debug\Microsoft.SqlServer.Types.dll
+=======
+E:\GitHub\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.exe
+E:\GitHub\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.pdb
+E:\GitHub\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.csprojResolveAssemblyReference.cache
+E:\GitHub\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.BaoCao.resources
+E:\GitHub\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.BoPhanQuanLy.resources
+E:\GitHub\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.GiaoDienChinh.resources
+E:\GitHub\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.HoatDongTongDai.resources
+E:\GitHub\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.Properties.Resources.resources
+E:\GitHub\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.QuanLyNhanVien.resources
+E:\GitHub\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.SignUp.resources
+E:\GitHub\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.csproj.GenerateResource.Cache
+E:\GitHub\Project\BTN_Ferocious\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe
+E:\GitHub\Project\BTN_Ferocious\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.pdb
+>>>>>>> f2aba9db30ea1428d61c1d0f84321ee35519981e
