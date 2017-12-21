@@ -102,3 +102,15 @@ E:\GitHub\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.csproj.G
 E:\GitHub\Project\BTN_Ferocious\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe
 E:\GitHub\Project\BTN_Ferocious\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.pdb
 >>>>>>> f2aba9db30ea1428d61c1d0f84321ee35519981e
+D:\DoAn\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.csprojResolveAssemblyReference.cache
+D:\DoAn\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.BaoCao.resources
+D:\DoAn\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.BoPhanQuanLy.resources
+D:\DoAn\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.GiaoDienChinh.resources
+D:\DoAn\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.HoatDongTongDai.resources
+D:\DoAn\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.Properties.Resources.resources
+D:\DoAn\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.QuanLyNhanVien.resources
+D:\DoAn\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.SignUp.resources
+D:\DoAn\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.csproj.GenerateResource.Cache
+D:\DoAn\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.csproj.CoreCompileInputs.cache
+D:\DoAn\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.exe
+D:\DoAn\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.pdb
