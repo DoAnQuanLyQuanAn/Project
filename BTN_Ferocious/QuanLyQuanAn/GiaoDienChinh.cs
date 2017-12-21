@@ -248,8 +248,6 @@ namespace QuanLyQuanAn
             viewTimKiem = new DataView(tb);
             dataDSThucDon.DataSource = viewTimKiem;
         }
-        void textCommit()
-        {
-        }
+        
     }
 }
