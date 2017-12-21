@@ -61,14 +61,9 @@ namespace QuanLyQuanAn
         
         private void btGui_Click(object sender, EventArgs e)
         {
-            SqlConnection connection = new SqlConnection(connectinonST);
-            connection.Open();
-
-            string query = "exec Gui1 N'"+cbMonAn.Text+"', '"+tbSL.Text+"'";
-            SqlCommand command = new SqlCommand(query, connection);
-            command.ExecuteNonQuery();
+            
             MessageBox.Show("Đã Gửi Thành Công!", "Thông Báo", MessageBoxButtons.OK);
-            connection.Close();
+            
         }
 
         private void btXoa_Click(object sender, EventArgs e)
@@ -99,7 +94,7 @@ namespace QuanLyQuanAn
         {
             SqlConnection connection = new SqlConnection(connectinonST);
             connection.Open();
-            string query = "exec TaoDonHang_TongDai '" + cbMonAn.Text + "', '" + tbSL.Text + "', '" + tbDiaChi.Text + "', '" + cbChonChiNhanh.Text + "'";
+            string query = "exec TaoDonHang_TongDai N'" + cbMonAn.Text + "', '" + tbSL.Text + "', N'" + tbDiaChi.Text + "', N'" + cbChonChiNhanh.Text + "'";
             SqlCommand command = new SqlCommand(query, connection);
             command.ExecuteNonQuery();
             MessageBox.Show("Đã Thêm Thành Công!", "Thông Báo", MessageBoxButtons.OK);
