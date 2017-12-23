@@ -24,7 +24,7 @@ namespace QuanLyQuanAn
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            conn = new SqlConnection(@"Data Source=.\sqlexpress;Initial Catalog=QuanLyQuanAn;Integrated Security=True");
+            conn = new SqlConnection(@"Data Source=.;Initial Catalog=QuanLyQuanAn;Integrated Security=True");
             conn.Open();
             string ngay1 = dateTimePicker1.Value.ToString("yyyy/MM/dd");
             string ngay2 = dateTimePicker2.Value.ToString("yyyy/MM/dd");
@@ -36,8 +36,13 @@ namespace QuanLyQuanAn
             cmd.Parameters["@kq"].Direction = ParameterDirection.Output;
             cmd.ExecuteNonQuery();
             string KQ = cmd.Parameters["@kq"].Value.ToString();
-            textBox1.Text = KQ;
             conn.Close();
+        }
+
+        private void BaoCao_Load(object sender, EventArgs e)
+        {
+
+            
         }
     }
 }
