@@ -48,11 +48,11 @@ namespace QuanLyQuanAn
                 }
                 else if (x2 == 2)
                 {
-                    HoatDongTongDai hdtd = new HoatDongTongDai();
-                    this.Hide();
-                    hdtd.Message21 = userName;
-                    hdtd.ShowDialog();
-                    this.Show();
+                    //HoatDongTongDai hdtd = new HoatDongTongDai();
+                    //this.Hide();
+                    //hdtd.Message21 = userName;
+                    //hdtd.ShowDialog();
+                    //this.Show();
                 }
                 else if(x2 == 1)
                 {
