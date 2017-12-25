@@ -1,0 +1,13 @@
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\BoPhanTongDai\bin\Debug\BoPhanTongDai.exe.config
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\BoPhanTongDai\bin\Debug\BoPhanTongDai.exe
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\BoPhanTongDai\bin\Debug\BoPhanTongDai.pdb
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.csprojResolveAssemblyReference.cache
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.GUI.FrmTongDai.resources
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.Properties.Resources.resources
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.csproj.GenerateResource.Cache
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.csproj.CoreCompileInputs.cache
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.exe
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.pdb
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.GUI.FrmDangNhap.resources
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.GUI.FrmSuaDHWeb.resources
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.GUI.FrmSuaLichSu.resources

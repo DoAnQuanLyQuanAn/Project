@@ -66,3 +66,17 @@ E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN03_Ferocious\QuanLyQuanAn\obj\
 E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN03_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.QuanLyNhanVien.resources
 E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.exe
 E:\laptrinh\nam 3\lap trinh ung dung quan ly 1\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.pdb
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.pdb
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.csprojResolveAssemblyReference.cache
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.BaoCao.resources
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.BoPhanQuanLy.resources
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.GiaoDienChinh.resources
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.HoatDongTongDai.resources
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.Properties.Resources.resources
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.QuanLyNhanVien.resources
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.SignUp.resources
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.csproj.GenerateResource.Cache
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.csproj.CoreCompileInputs.cache
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.exe
+C:\Users\Style\Documents\Github\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.pdb

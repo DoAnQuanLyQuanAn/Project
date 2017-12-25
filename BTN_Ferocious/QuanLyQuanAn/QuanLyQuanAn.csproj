@@ -66,12 +66,6 @@
     <Compile Include="GiaoDienChinh.Designer.cs">
       <DependentUpon>GiaoDienChinh.cs</DependentUpon>
     </Compile>
-    <Compile Include="HoatDongTongDai.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="HoatDongTongDai.Designer.cs">
-      <DependentUpon>HoatDongTongDai.cs</DependentUpon>
-    </Compile>
     <Compile Include="LoadDuLieu.cs" />
     <Compile Include="QuanLyNhanVien.cs">
       <SubType>Form</SubType>
@@ -96,9 +90,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GiaoDienChinh.resx">
       <DependentUpon>GiaoDienChinh.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="HoatDongTongDai.resx">
-      <DependentUpon>HoatDongTongDai.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
