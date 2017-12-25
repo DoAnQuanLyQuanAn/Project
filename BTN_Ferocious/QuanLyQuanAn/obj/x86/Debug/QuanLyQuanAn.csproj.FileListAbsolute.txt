@@ -80,3 +80,6 @@ C:\Users\Style\Documents\Github\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug
 C:\Users\Style\Documents\Github\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.csproj.CoreCompileInputs.cache
 C:\Users\Style\Documents\Github\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.exe
 C:\Users\Style\Documents\Github\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.pdb
+C:\Users\dangk_000\Documents\GitHub\Project\BTN_Ferocious\QuanLyQuanAn\bin\Debug\QuanLyQuanAn.exe.config
+C:\Users\dangk_000\Documents\GitHub\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.exe
+C:\Users\dangk_000\Documents\GitHub\Project\BTN_Ferocious\QuanLyQuanAn\obj\x86\Debug\QuanLyQuanAn.pdb
