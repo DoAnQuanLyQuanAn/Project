@@ -11,7 +11,8 @@ namespace QuanLyQuanAn
     {
         public static DataTable docDuLieu(string query)
         {
-            string connectionST = @"Data Source=.\sqlexpress;Initial Catalog=QuanLyQuanAn;Integrated Security=True";
+            string connectionST = @"Data Source=.;Initial Catalog=QuanLyQuanAn;Integrated Security=True";
+         //   string connectionST = @"Data Source=.\sqlexpress;Initial Catalog=QuanLyQuanAn;Integrated Security=True";
             SqlConnection connection;
             connection = new SqlConnection(connectionST);
             connection.Open();
