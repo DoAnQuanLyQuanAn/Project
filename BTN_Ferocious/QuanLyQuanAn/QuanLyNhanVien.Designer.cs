@@ -335,6 +335,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "QuanLyNhanVien";
             this.Text = "Quản Lý Nhân Viên";
             this.Load += new System.EventHandler(this.QuanLyNhanVien_Load);
