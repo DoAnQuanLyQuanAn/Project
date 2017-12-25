@@ -24,7 +24,8 @@ namespace QuanLyQuanAn
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            conn = new SqlConnection(@"Data Source=.;Initial Catalog=QuanLyQuanAn;Integrated Security=True");
+            string tem = @"OMEGA\THETASERVER";
+            conn = new SqlConnection(@"Data Source="+tem+";Initial Catalog=QuanLyQuanAn;Integrated Security=True");
             conn.Open();
             string ngay1 = dateTimePicker1.Value.ToString("yyyy/MM/dd");
             string ngay2 = dateTimePicker2.Value.ToString("yyyy/MM/dd");

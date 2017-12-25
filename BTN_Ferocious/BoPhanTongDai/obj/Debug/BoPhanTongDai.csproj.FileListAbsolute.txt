@@ -24,3 +24,15 @@ C:\Users\Style\Documents\Github\New folder\Project\BTN_Ferocious\BoPhanTongDai\o
 C:\Users\Style\Documents\Github\New folder\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.csproj.CoreCompileInputs.cache
 C:\Users\Style\Documents\Github\New folder\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.exe
 C:\Users\Style\Documents\Github\New folder\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.pdb
+D:\DA\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.csprojResolveAssemblyReference.cache
+D:\DA\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.GUI.FrmDangNhap.resources
+D:\DA\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.GUI.FrmSuaDHWeb.resources
+D:\DA\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.GUI.FrmSuaLichSu.resources
+D:\DA\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.GUI.FrmTongDai.resources
+D:\DA\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.Properties.Resources.resources
+D:\DA\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.csproj.GenerateResource.Cache
+D:\DA\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.exe
+D:\DA\Project\BTN_Ferocious\BoPhanTongDai\obj\Debug\BoPhanTongDai.pdb
+D:\DA\Project\BTN_Ferocious\BoPhanTongDai\bin\Debug\BoPhanTongDai.exe.config
+D:\DA\Project\BTN_Ferocious\BoPhanTongDai\bin\Debug\BoPhanTongDai.exe
+D:\DA\Project\BTN_Ferocious\BoPhanTongDai\bin\Debug\BoPhanTongDai.pdb

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUp));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btThoat = new System.Windows.Forms.Button();
             this.tbPass = new System.Windows.Forms.TextBox();
@@ -40,6 +41,8 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.Controls.Add(this.btThoat);
             this.panel1.Controls.Add(this.tbPass);
             this.panel1.Controls.Add(this.btDangNhap);
@@ -53,7 +56,9 @@
             // 
             // btThoat
             // 
-            this.btThoat.Location = new System.Drawing.Point(304, 121);
+            this.btThoat.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btThoat.BackgroundImage")));
+            this.btThoat.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btThoat.Location = new System.Drawing.Point(299, 113);
             this.btThoat.Name = "btThoat";
             this.btThoat.Size = new System.Drawing.Size(75, 23);
             this.btThoat.TabIndex = 3;
@@ -71,7 +76,9 @@
             // 
             // btDangNhap
             // 
-            this.btDangNhap.Location = new System.Drawing.Point(223, 121);
+            this.btDangNhap.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btDangNhap.BackgroundImage")));
+            this.btDangNhap.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btDangNhap.Location = new System.Drawing.Point(218, 113);
             this.btDangNhap.Name = "btDangNhap";
             this.btDangNhap.Size = new System.Drawing.Size(75, 23);
             this.btDangNhap.TabIndex = 2;
@@ -110,8 +117,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(415, 169);
             this.Controls.Add(this.panel1);
+            this.DoubleBuffered = true;
             this.MaximizeBox = false;
             this.Name = "SignUp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

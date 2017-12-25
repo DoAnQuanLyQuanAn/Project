@@ -12,9 +12,9 @@ namespace QuanLyQuanAn
 {
     public partial class GiaoDienChinh : Form
     {
-        string connectinonST = @"Data Source=.;Initial Catalog=QuanLyQuanAn;Integrated Security=True";
-        //string connectinonST = @"Data Source=.\sqlexpress;Initial Catalog=QuanLyQuanAn;Integrated Security=True";
-
+        static string tem = @"OMEGA\THETASERVER";
+        string connectinonST = @"Data Source="+tem+";Initial Catalog=QuanLyQuanAn;Integrated Security=True";
+        
         //Lấy tên người đăng nhập
         private string Message;
         public string Message1

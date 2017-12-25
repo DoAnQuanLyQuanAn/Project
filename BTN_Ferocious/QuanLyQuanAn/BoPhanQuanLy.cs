@@ -12,7 +12,8 @@ namespace QuanLyQuanAn
 {
     public partial class BoPhanQuanLy : Form
     {
-        string connectinonST = @"Data Source=.\sqlexpress;Initial Catalog=QuanLyQuanAn;Integrated Security=True";
+        static string tem = @"OMEGA\THETASERVER";
+        string connectinonST = @"Data Source="+tem+";Initial Catalog=QuanLyQuanAn;Integrated Security=True";
 
         DataTable cboxMonAn = new DataTable();
 

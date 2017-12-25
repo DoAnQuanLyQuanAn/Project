@@ -13,7 +13,7 @@ namespace DAO
         private string connectionString = @"Data Source=DESKTOP-87FU5ES;Initial Catalog=QuanLyQuanAn;Integrated Security=True;MultipleActiveResultSets=True";
         private SqlConnection connection;
 
-        public SqlConnection Connection { get => connection; set => connection = value; }
+        public SqlConnection Connection { get { return connection; } set { connection = value; } }
 
         public void Open()
         {
