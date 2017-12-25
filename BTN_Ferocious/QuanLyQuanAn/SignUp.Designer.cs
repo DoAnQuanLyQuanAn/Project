@@ -57,6 +57,7 @@
             // btThoat
             // 
             this.btThoat.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btThoat.BackgroundImage")));
+            this.btThoat.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btThoat.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btThoat.Location = new System.Drawing.Point(299, 113);
             this.btThoat.Name = "btThoat";
@@ -122,6 +123,7 @@
             this.ClientSize = new System.Drawing.Size(415, 169);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.Name = "SignUp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
