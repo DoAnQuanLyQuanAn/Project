@@ -29,10 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BaoCao));
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            this.ThanhToanBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.QuanLyQuanAnDataSet = new QuanLyQuanAn.QuanLyQuanAnDataSet();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabDoanhThu = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -41,6 +44,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.tabDoanhThuTCN = new System.Windows.Forms.TabPage();
             this.label3 = new System.Windows.Forms.Label();
             this.cbChonChiNhanh = new System.Windows.Forms.ComboBox();
@@ -66,10 +70,9 @@
             this.tabBieuDo = new System.Windows.Forms.TabPage();
             this.panel5 = new System.Windows.Forms.Panel();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.QuanLyQuanAnDataSet = new QuanLyQuanAn.QuanLyQuanAnDataSet();
-            this.ThanhToanBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.ThanhToanTableAdapter = new QuanLyQuanAn.QuanLyQuanAnDataSetTableAdapters.ThanhToanTableAdapter();
+            ((System.ComponentModel.ISupportInitialize)(this.ThanhToanBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.QuanLyQuanAnDataSet)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabDoanhThu.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -85,9 +88,17 @@
             this.tabBieuDo.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.QuanLyQuanAnDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ThanhToanBindingSource)).BeginInit();
             this.SuspendLayout();
+            // 
+            // ThanhToanBindingSource
+            // 
+            this.ThanhToanBindingSource.DataMember = "ThanhToan";
+            this.ThanhToanBindingSource.DataSource = this.QuanLyQuanAnDataSet;
+            // 
+            // QuanLyQuanAnDataSet
+            // 
+            this.QuanLyQuanAnDataSet.DataSetName = "QuanLyQuanAnDataSet";
+            this.QuanLyQuanAnDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // tabControl1
             // 
@@ -149,7 +160,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(282, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 16);
+            this.label1.Size = new System.Drawing.Size(76, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "Đến Ngày";
             // 
@@ -169,6 +180,18 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(850, 396);
             this.panel1.TabIndex = 0;
+            // 
+            // reportViewer1
+            // 
+            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            reportDataSource1.Name = "DataSet1";
+            reportDataSource1.Value = this.ThanhToanBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "QuanLyQuanAn.BaoCaoDoanhThu.rdlc";
+            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.Size = new System.Drawing.Size(850, 396);
+            this.reportViewer1.TabIndex = 0;
             // 
             // tabDoanhThuTCN
             // 
@@ -206,6 +229,8 @@
             // 
             // btThongKe2
             // 
+            this.btThongKe2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btThongKe2.BackgroundImage")));
+            this.btThongKe2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btThongKe2.Location = new System.Drawing.Point(708, 28);
             this.btThongKe2.Name = "btThongKe2";
             this.btThongKe2.Size = new System.Drawing.Size(99, 40);
@@ -219,7 +244,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(300, 52);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 16);
+            this.label2.Size = new System.Drawing.Size(76, 16);
             this.label2.TabIndex = 3;
             this.label2.Text = "Đến Ngày";
             // 
@@ -247,6 +272,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.AliceBlue;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
@@ -274,7 +300,7 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(314, 30);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(79, 16);
+            this.label4.Size = new System.Drawing.Size(76, 16);
             this.label4.TabIndex = 4;
             this.label4.Text = "Đến Ngày";
             // 
@@ -311,6 +337,7 @@
             // 
             // dataGridView2
             // 
+            this.dataGridView2.BackgroundColor = System.Drawing.Color.AliceBlue;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Location = new System.Drawing.Point(0, 3);
             this.dataGridView2.Name = "dataGridView2";
@@ -338,7 +365,7 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(302, 30);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(79, 16);
+            this.label5.Size = new System.Drawing.Size(76, 16);
             this.label5.TabIndex = 4;
             this.label5.Text = "Đến Ngày";
             // 
@@ -367,6 +394,7 @@
             // 
             // dataGridView3
             // 
+            this.dataGridView3.BackgroundColor = System.Drawing.Color.AliceBlue;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.Location = new System.Drawing.Point(0, 67);
             this.dataGridView3.Name = "dataGridView3";
@@ -409,28 +437,6 @@
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
             // 
-            // reportViewer1
-            // 
-            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            reportDataSource1.Name = "DataSet1";
-            reportDataSource1.Value = this.ThanhToanBindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
-            this.reportViewer1.LocalReport.ReportEmbeddedResource = "QuanLyQuanAn.BaoCaoDoanhThu.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(850, 396);
-            this.reportViewer1.TabIndex = 0;
-            // 
-            // QuanLyQuanAnDataSet
-            // 
-            this.QuanLyQuanAnDataSet.DataSetName = "QuanLyQuanAnDataSet";
-            this.QuanLyQuanAnDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // ThanhToanBindingSource
-            // 
-            this.ThanhToanBindingSource.DataMember = "ThanhToan";
-            this.ThanhToanBindingSource.DataSource = this.QuanLyQuanAnDataSet;
-            // 
             // ThanhToanTableAdapter
             // 
             this.ThanhToanTableAdapter.ClearBeforeFill = true;
@@ -439,13 +445,18 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(882, 505);
             this.Controls.Add(this.tabControl1);
+            this.DoubleBuffered = true;
             this.MaximizeBox = false;
             this.Name = "BaoCao";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Báo Cáo";
             this.Load += new System.EventHandler(this.BaoCao_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.ThanhToanBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.QuanLyQuanAnDataSet)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.tabDoanhThu.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
@@ -465,8 +476,6 @@
             this.tabBieuDo.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.QuanLyQuanAnDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ThanhToanBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
