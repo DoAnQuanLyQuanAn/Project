@@ -28,8 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GiaoDienChinh));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -87,7 +89,8 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.Controls.Add(this.dateTimePicker1);
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.panel1.Location = new System.Drawing.Point(2, 2);
@@ -104,7 +107,8 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.Controls.Add(this.dsachBanAn);
             this.panel2.Controls.Add(this.label1);
             this.panel2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -115,7 +119,7 @@
             // 
             // dsachBanAn
             // 
-            this.dsachBanAn.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.dsachBanAn.BackColor = System.Drawing.Color.Transparent;
             this.dsachBanAn.Controls.Add(this.btBan1);
             this.dsachBanAn.Controls.Add(this.btBan2);
             this.dsachBanAn.Controls.Add(this.btBan3);
@@ -133,7 +137,7 @@
             this.dsachBanAn.Controls.Add(this.btBan15);
             this.dsachBanAn.Controls.Add(this.btMoBan);
             this.dsachBanAn.Controls.Add(this.btDongBan);
-            this.dsachBanAn.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.dsachBanAn.ForeColor = System.Drawing.Color.Blue;
             this.dsachBanAn.Location = new System.Drawing.Point(3, 33);
             this.dsachBanAn.Name = "dsachBanAn";
             this.dsachBanAn.Size = new System.Drawing.Size(382, 529);
@@ -336,20 +340,25 @@
             // 
             // btMoBan
             // 
+            this.btMoBan.BackColor = System.Drawing.Color.Transparent;
+            this.btMoBan.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btMoBan.BackgroundImage")));
+            this.btMoBan.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btMoBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btMoBan.ForeColor = System.Drawing.Color.Maroon;
+            this.btMoBan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btMoBan.Location = new System.Drawing.Point(3, 180);
             this.btMoBan.Name = "btMoBan";
             this.btMoBan.Size = new System.Drawing.Size(199, 93);
             this.btMoBan.TabIndex = 0;
             this.btMoBan.Text = "Mở Bàn";
-            this.btMoBan.UseVisualStyleBackColor = true;
+            this.btMoBan.UseVisualStyleBackColor = false;
             this.btMoBan.Click += new System.EventHandler(this.btMoBan_Click);
             // 
             // btDongBan
             // 
+            this.btDongBan.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btDongBan.BackgroundImage")));
+            this.btDongBan.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btDongBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btDongBan.ForeColor = System.Drawing.Color.Maroon;
+            this.btDongBan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btDongBan.Location = new System.Drawing.Point(3, 279);
             this.btDongBan.Name = "btDongBan";
             this.btDongBan.Size = new System.Drawing.Size(199, 93);
@@ -370,7 +379,8 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
             this.panel3.Controls.Add(this.soLuong);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.dataDSThucDon);
@@ -415,16 +425,21 @@
             // 
             // dataDSThucDon
             // 
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Blue;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataDSThucDon.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataDSThucDon.BackgroundColor = System.Drawing.Color.AliceBlue;
             this.dataDSThucDon.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataDSThucDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.Desktop;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataDSThucDon.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.Desktop;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataDSThucDon.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataDSThucDon.Location = new System.Drawing.Point(3, 72);
             this.dataDSThucDon.Name = "dataDSThucDon";
             this.dataDSThucDon.Size = new System.Drawing.Size(290, 372);
@@ -432,6 +447,8 @@
             // 
             // btTimKiem
             // 
+            this.btTimKiem.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btTimKiem.BackgroundImage")));
+            this.btTimKiem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btTimKiem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btTimKiem.Location = new System.Drawing.Point(205, 43);
@@ -444,6 +461,8 @@
             // 
             // btThem
             // 
+            this.btThem.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btThem.BackgroundImage")));
+            this.btThem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btThem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btThem.Location = new System.Drawing.Point(181, 467);
@@ -473,7 +492,8 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel4.BackColor = System.Drawing.Color.Transparent;
+            this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
             this.panel4.Controls.Add(this.label5);
             this.panel4.Controls.Add(this.comboBox1);
             this.panel4.Controls.Add(this.label4);
@@ -533,6 +553,9 @@
             // 
             // btThanhToan
             // 
+            this.btThanhToan.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btThanhToan.BackgroundImage")));
+            this.btThanhToan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btThanhToan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btThanhToan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btThanhToan.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btThanhToan.Location = new System.Drawing.Point(231, 379);
@@ -553,6 +576,8 @@
             // 
             // btInXuongBep
             // 
+            this.btInXuongBep.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btInXuongBep.BackgroundImage")));
+            this.btInXuongBep.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btInXuongBep.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btInXuongBep.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btInXuongBep.Location = new System.Drawing.Point(3, 379);
@@ -576,15 +601,16 @@
             // 
             // dataThongTinHoaDon
             // 
+            this.dataThongTinHoaDon.BackgroundColor = System.Drawing.Color.AliceBlue;
             this.dataThongTinHoaDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.Desktop;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataThongTinHoaDon.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.Desktop;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataThongTinHoaDon.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataThongTinHoaDon.Location = new System.Drawing.Point(3, 33);
             this.dataThongTinHoaDon.Name = "dataThongTinHoaDon";
             this.dataThongTinHoaDon.ReadOnly = true;
@@ -625,13 +651,17 @@
             // 
             // btNhanHoaDon
             // 
+            this.btNhanHoaDon.BackColor = System.Drawing.Color.Transparent;
+            this.btNhanHoaDon.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btNhanHoaDon.BackgroundImage")));
+            this.btNhanHoaDon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btNhanHoaDon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btNhanHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btNhanHoaDon.Location = new System.Drawing.Point(836, 19);
             this.btNhanHoaDon.Name = "btNhanHoaDon";
             this.btNhanHoaDon.Size = new System.Drawing.Size(176, 23);
             this.btNhanHoaDon.TabIndex = 10;
             this.btNhanHoaDon.Text = "Nhận Hóa Đơn Từ Tổng Đài";
-            this.btNhanHoaDon.UseVisualStyleBackColor = true;
+            this.btNhanHoaDon.UseVisualStyleBackColor = false;
             this.btNhanHoaDon.Click += new System.EventHandler(this.btNhanHoaDon_Click);
             // 
             // label9
@@ -656,6 +686,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1024, 615);
             this.Controls.Add(this.TenHienThi);
             this.Controls.Add(this.label9);
@@ -664,6 +696,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.DoubleBuffered = true;
             this.MaximizeBox = false;
             this.Name = "GiaoDienChinh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
