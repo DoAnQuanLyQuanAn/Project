@@ -41,8 +41,11 @@ namespace QuanLyQuanAn
 
         private void BaoCao_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'QuanLyQuanAnDataSet.ThanhToan' table. You can move, or remove it, as needed.
+            this.ThanhToanTableAdapter.Fill(this.QuanLyQuanAnDataSet.ThanhToan);
 
-            
+
+            this.reportViewer1.RefreshReport();
         }
     }
 }

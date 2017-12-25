@@ -61,11 +61,23 @@ namespace QuanLyQuanAn
 
         private void btThanhToan_Click(object sender, EventArgs e)
         {
-            SqlConnection connection = new SqlConnection(connectinonST);
-            connection.Open();
+            
+            if((MessageBox.Show("Bạn có chắc muốn thanh toán?", "", MessageBoxButtons.YesNo)==DialogResult.Yes))
+            {
+                SqlConnection connection = new SqlConnection(connectinonST);
+                connection.Open();
 
+                string query = "insert into ThanhToan values("+x.ToString()+","+tt.ToString()+",'"+dateTimePicker1.Value.ToString("yyyy/MM/dd")+"')";
+                SqlCommand cmd = new SqlCommand(query,connection);
+                cmd.ExecuteNonQuery();
+
+                query = "delete HOADON where idBan="+x.ToString();
+                cmd = new SqlCommand(query, connection);
+                cmd.ExecuteNonQuery();
+                connection.Close();
+            }
         }
-
+       
         private void btNhanHoaDon_Click(object sender, EventArgs e)
         {
             
