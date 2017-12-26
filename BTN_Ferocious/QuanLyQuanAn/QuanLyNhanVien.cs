@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,13 +12,14 @@ namespace QuanLyQuanAn
 {
     public partial class QuanLyNhanVien : Form
     {
-        static string tem = @"OMEGA\THETASERVER";
-        string connectionST = @"Data Source="+tem+";Initial Catalog=QuanLyQuanAn;Integrated Security=True";
+        string connectionST = @"Data Source=.\sqlexpress;Initial Catalog=QuanLyQuanAn;Integrated Security=True";
         public QuanLyNhanVien()
         {
             InitializeComponent();
         }
-
+        // them bo phan quan ly, tong dai. ban hang, nhan vien de quan ly
+        DataView view;
+        DataTable tb;
         private void QuanLyNhanVien_Load(object sender, EventArgs e)
         {
             cbBoPhan.Items.Add("Bộ Phận Quản Lý");
@@ -26,9 +27,12 @@ namespace QuanLyQuanAn
             cbBoPhan.Items.Add("Bộ Phận Bán Hàng");
             cbBoPhan.Items.Add("Quản Lý Nhân Viên");
 
-            DataTable tb = new DataTable();
+            tb = new DataTable();
+
             tb = ThemNhanVien();
+
             dataTaiKhoan.DataSource = tb;
+            binding();
         }
 
         private void btDangKy_Click(object sender, EventArgs e)
@@ -67,8 +71,8 @@ namespace QuanLyQuanAn
 
             SqlConnection connection2 = new SqlConnection(connectionST);
             connection2.Open();
-            string query2 = "exec ThemNhanVien N'"+tbHoTen.Text+"','"+tbCMND.Text+"',N'"+tbQueQuan.Text+"','"+tbNgaySinh.Text+"'";
-            SqlCommand command2 = new SqlCommand(query2,connection2);
+            string query2 = "exec ThemNhanVien N'" + tbHoTen.Text + "','" + tbCMND.Text + "',N'" + tbQueQuan.Text + "','" + tbNgaySinh.Text + "'";
+            SqlCommand command2 = new SqlCommand(query2, connection2);
             command2.ExecuteNonQuery();
 
             connection2.Close();
@@ -80,10 +84,35 @@ namespace QuanLyQuanAn
             tbQueQuan.Clear();
             tbUser.Clear();
 
+            //DataRow row = tb.NewRow();
+            //row[0] = tbUser.Text;
+            //row[1] =tbPass.Text;
+            //row[2] = tbHoTen.Text;
+            //row[3] = 0;
+            //row[4] = tbHoTen.Text;
+            //row[5] = tbCMND.Text;
+            //row[6] = tbQueQuan.Text;
+            //row[7] = tbNgaySinh.Text;
+            //tb.Rows.Add(row);
         }
 
+        public void binding()
+        {
+            tbUser.DataBindings.Clear();
+            tbUser.DataBindings.Add("text", dataTaiKhoan.DataSource, "UserName");
+
+        }
         private void btXoa_Click(object sender, EventArgs e)
         {
+            SqlConnection connection2 = new SqlConnection(connectionST);
+            connection2.Open();
+            string name = tbUser.Text;
+            string query2 = "DELETE FROM TAI_KHOAN WHERE UserName = '" + name + "'";
+            SqlCommand command2 = new SqlCommand(query2, connection2);
+            command2.ExecuteNonQuery();
+
+            connection2.Close();
+            MessageBox.Show("Đã Xóa Thành Công!", "Thông Báo", MessageBoxButtons.OK);
             int RowIndex = dataTaiKhoan.CurrentRow.Index;
             dataTaiKhoan.Rows.RemoveAt(RowIndex);
         }
@@ -95,6 +124,7 @@ namespace QuanLyQuanAn
             dataTaiKhoan.DataSource = tb;
             return tb;
         }
+
 
     }
 }
